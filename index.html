@@ -6,11 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-  <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+  <link rel="icon" href="">
 
   <title>DxSale Presale Search</title>
-
-  <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/pricing/">
 
   <!-- Bootstrap core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -46,7 +44,7 @@
         </div>
         <div class="card-body">
           <div id="load-form">
-            <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Confirm Presale Address Details</label>
+            <label class="my-1 mr-2" for="presaleAddress">Confirm Presale Address Details</label>
             <input type="text" class="form-control" id="presaleAddress"
               placeholder="Presale contract address">
 
@@ -54,7 +52,7 @@
             <button id="loadPresaleBtn" type="submit" class="btn btn-primary btn-block">Load</button>
 
             <div id="presale-form">
-              
+
             </div>
           </div>
           <br />
@@ -66,8 +64,8 @@
         </div>
         <div class="card-body">
           <div id="load-form">
-            <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Search Presale By Contract Address</label>
-            <input type="text" class="form-control" id="contractAddress"
+            <label class="my-1 mr-2" for="contractAddress">Search Presale By Contract Address</label>
+            <input type="text" class="form-control" id="contractAddress" value="0x185cFc8f0e374a4A54b9609628dE05d317B52F7E"
               placeholder="Token contract address">
 
             <br />
@@ -99,7 +97,7 @@
             <button id="loadAddressBtn" type="submit" class="btn btn-primary btn-block">Check</button>
 
             <div id="address-form" class="text-dark">
-              
+
             </div>
           </div>
           <br />

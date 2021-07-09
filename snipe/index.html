@@ -6,11 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-  <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
 
   <title>DxSale Presale Snipe</title>
-
-  <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/pricing/">
 
   <!-- Bootstrap core CSS -->
   <link href="../css/bootstrap.min.css" rel="stylesheet">
@@ -48,11 +45,17 @@
         </div>
         <div class="card-body">
           <div class="form-row">
-            <h3 class="col-md-6 card-title pricing-card-title"><span id="bnb">0</span> <small class="text-muted">BNB</small></h3>
-            <h3 class="col-md-6 card-title pricing-card-title">Block Timestamp: <span id="block" class="text-muted">0</span></h3>
+            <h3 class="col-md-6 card-title pricing-card-title">
+              <span id="bnb">0</span>
+              <small class="text-muted">BNB</small>
+            </h3>
+            <h3 class="col-md-6 card-title pricing-card-title">
+              Block Timestamp:
+              <span id="block" class="text-muted">0</span>
+            </h3>
           </div>
           <div id="load-form">
-            <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Enter Presale Address</label>
+            <label class="my-1 mr-2" for="presaleAddress">Enter Presale Address</label>
             <input type="text" class="form-control" id="presaleAddress"
               placeholder="Presale contract address (NOT token contract address)">
 
@@ -133,9 +136,6 @@
             <button id="snipe" type="submit" class="btn btn-primary btn-block">Snipe</button>
             <button id="cancel" type="submit" class="btn btn-warning btn-block" style="display:none;">Cancel</button>
           </div>
-
-
-          
 
           <div id="withdrawing" class="progress" style="height: 40px;display:none;">
             <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="100"
